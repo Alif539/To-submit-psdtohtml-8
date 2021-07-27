@@ -250,9 +250,8 @@ padding: 85px 0;
 .peopleSayText:hover:after{
   box-shadow: .4px .4px 0px 
 }
-.oneThchild{ border-right: 1px solid #667386;
-  border-bottom:1px solid #667386;}
-.twoenChild{border-bottom:.5px solid #667386; }
+.oneThchild{ border-right: 1px solid #667386;border-bottom:1px solid #667386;}
+.twoenChild{border-bottom:.5px solid #667386;border-right: 1px solid #667386; border-left: .5px solid #667386}
 .lstChld{ border-left: .5px solid #667386;border-bottom:1px solid #667386; }
 .peopleSayText p {
    line-height: 30px;
@@ -429,7 +428,6 @@ width: 100%;
    width: 395px;
    padding:15px 20px ;
    border: none;
-   border:none;
    border-radius: 26px;
    background-color: #f8f5f6;
    color: #888888;
@@ -455,12 +453,7 @@ width: 100%;
 .appdownloadDiv{
   padding: 20px;
 }
-.hHlogo{
-width: 14%;
-border-radius: 36px;
-margin: 0 auto;
-margin-bottom: 50px;
-}
+
 .appdownloadDiv h1 a{
 }
 .appdownloadDiv h1 a img{
