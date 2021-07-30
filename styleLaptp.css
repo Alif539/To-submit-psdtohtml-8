@@ -1,0 +1,221 @@
+*{margin: 0;padding: 0; box-sizing: border-box;}
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+body{font-family: 'Lato', sans-serif;}
+.fl{float:left;}
+.fr{float: right;}
+.fix{overflow: hidden;}
+h1{ font-size: 39px;color: #ffffff;}
+p{ font-size: 11px; color:#999999;line-height: 18px;}
+h2{font-size: 72px;color: #363636;}
+ul li{list-style: none;display: inline-block;}
+ul li a{text-decoration: none ; font-size: 12px; color: white; }
+img{width: 100%;}
+
+/* global css ends here */
+
+/* sizing css starts here */
+.container{width: 960px;margin:0 auto;}
+.structure{width: 660px;margin:0 auto;}
+/* sizing css ends here */
+.navSection {
+    padding: 22px;
+}
+.logoIMg {
+    width: 9%;
+}
+.logoIMg img{
+    width: 100%;
+}
+.mainMenu {
+    width: 90% ;
+    margin-top: 15px;
+}
+.headerHero {
+    padding: 80px 0px 45px 0px;
+}
+.heroMbl {
+    width: 30%;
+    padding: 0px 0px 0px 0px;
+}
+.mainMenu ul li {
+    padding: 0px 9px;
+}
+.heroText h1 {
+    padding-bottom: 20px;
+}
+.heroText input[type="submit"] {
+    padding: 6px 16px;
+    font-size: 11px;
+    margin-left: 10px;
+}
+.heroText p {
+    padding-bottom: 45px;
+}
+.heroText {
+    width: 40%;
+    padding: 0px 0px 9px 8px;
+}
+.heroMbl img {
+    border-radius: 29px;
+    box-shadow: #e2e5e5 0px 0px 0px;
+}
+.easyMassagingBox {
+    padding: 20px 20px 80px 20px;
+}
+.easyMassageText {
+    width: 50%;
+    padding: 60px 0px 0px 0px;
+}
+.easyMassageText h2 {
+    margin-bottom: 13px;
+    font-size: 30px;
+}.keepInTouchText {
+    width: 40%;
+    padding: 0px 0px 9px 8px;
+}
+.keepInTouchText h2 {
+    margin-bottom: 13px;
+    font-size: 30px;
+}
+.massageIMgBox {
+    box-shadow: #e2e5e5 0px 2px 8px;
+}
+.massageIMgBox::after {
+    top: 42px;
+    right: -80px;
+    box-shadow: #e2e5e5 0px 2px 8px;
+}
+.keepInTouchImgBox {box-shadow: #e2e5e5 0px 2px 8px;
+}
+.keepInTouchImgBox::after {
+    box-shadow: #e2e5e5 0px 2px 8px;
+    top: 42px;
+    right: 80px;
+}
+.peopleSayDiv {
+    padding: 30px 0px 0px 0px;
+}
+.peopleSayText p {
+    line-height: 16px;
+}
+.peopleSayText {
+    padding: 5px 10px;
+}
+.peopleSayText::after {
+    height: 14px;
+    width: 14px;
+    bottom: -8px;
+    left: 10px;
+}
+.customerImg {
+    width: 25%;
+}
+.customertext {
+    margin-left: 12px;
+}
+.heyYOuMobileDEsign {
+    margin: 100px 0px 0px 0px;
+}
+.mblImg {
+    width: 15%;
+    margin-right: 17px;
+}
+.mblTxt h4 {
+    font-size: 14px;
+}
+.mblTxt p {
+    font-size: 12px;
+    letter-spacing: 0px;
+    margin-bottom: 43px;
+}
+.MobileviewMainBox {
+    padding: 120px 0px;
+}
+.mbltextArea {
+    width: 26%;
+}
+.mobileViewMegaBox::before {
+    height: 132%;
+    width: 33%;
+    top: -79px;
+    left: 320px;
+    border-radius: 55px;
+    box-shadow: 0px 0px 10px;
+}
+.MobileviewMainBox::before {
+    height: 100%;
+    width: 42%;
+    top: 0px;
+    left: 191px;
+    
+}
+.MobileviewMainBox::after {
+    height: 11.5%;
+    width: 8.5%;
+    top: 197px;
+    left: 298px;
+}
+.subscriveArea {
+    padding: 185px 0px 100px 0px;
+}
+.subscribeDiv h1 {
+    font-size: 30px;
+}
+.toGetFormTOgether {
+    width: 100%;
+    margin-left: 0px;
+    border-radius: 26px;
+}
+.subscribeFOrm [type="text"] {
+    width: 260px;
+    padding: 5px 15px;
+    border-radius: 30px;
+}
+.subscribeFOrm [type="submit"] {
+    padding: 6px 16px;
+    font-size: 12px;
+}
+.appDownloadsection {
+    padding: 100px 0px 80px 0px;
+}
+.appdownloadDiv h1 a img {
+    border-radius: 22px;
+}
+.resizavleLOGO {
+    width: 15%;
+   margin: 0 auto;
+}
+.appDownloadsection h1 {
+    margin-bottom: 0px;
+}
+.appDownloadsection p {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.dLogo {
+    margin-left: 0px;
+}
+.resizableBoxTwo {
+    width: 12%;
+    margin: 0 auto;
+}
+.footerMenu {
+    padding: 3px 2px;
+}
+/* .mainMenu {
+    width: 70%;
+    margin-top: 15px;
+} */
+.mainMenuDown {
+    width: 33%;
+    margin-top: 15px;
+}
+.mainMenuDown ul   {
+    
+}
+.mainMenuDown ul li {
+  
+}
+.footerfloatupMEnu {
+    margin-top: 15px;
+}

@@ -298,7 +298,7 @@ padding: 85px 0;
   background-image: linear-gradient(#da0945, #ea3c2e);
   position: relative;
   z-index: 1;
-  height:525px;
+  /* height:525px; */
 }
 .mobileViewMegaBox::before{
   content: '';
@@ -326,7 +326,7 @@ padding: 85px 0;
 .MobileviewMainBox::before {
   content: '';
   position: absolute;
-  height: 101%;
+  height: 100%;
   width: 25.5%;
   top: 2px;
   left: 428px;
@@ -384,7 +384,7 @@ width: 100%;
   font-size: 16px;
   font-weight: 100;
   letter-spacing: 2px;
-  margin-bottom: 70px;
+  margin-bottom: 73px;
 }
 
 .mblImg {
@@ -453,6 +453,8 @@ width: 100%;
 .appdownloadDiv{
   padding: 20px;
 }
+.resizavleLOGO{}
+.resizableBoxTwo{}
 
 .appdownloadDiv h1 a{
 }
@@ -484,8 +486,15 @@ width: 100%;
   padding: 50px 10px;
 }
 
-.mainMenu {
-  margin-top: 26px;
+.mainMenuDown  {
+  width: 40%;
+  margin-top: 12px;
+}
+.mainMenuDown ul   {
+  text-align: right;
+}
+.mainMenuDown ul li {
+    padding: 0px 6px;
 }
 .lstMnuUL {
   text-align: left!important;
